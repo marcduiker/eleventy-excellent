@@ -30,10 +30,6 @@ export default {
     {
       text: 'Style guide',
       url: '/styleguide/'
-    },
-    {
-      text: 'Privacy',
-      url: '/privacy/'
     }
   ]
 };
