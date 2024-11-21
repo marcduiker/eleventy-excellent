@@ -1,11 +1,8 @@
 email: hola@eyourmail.lol
-address: |-
-  Organization name
-  Your street
-  12345, city
-  Tel: +34 928231911
 platforms:
-  github: 'https://github.com/madrilene/eleventy-excellent'
-  mastodon: 'https://front-end.social/@lene'
-  bluesky: 'https://bsky.app/profile/lenesaile.com'
-  kofi: 'https://ko-fi.com/lenesaile'
+  bluesky: 'https://bsky.app/profile/marcduiker.dev'
+  mastodon: 'https://mstdn.social/@marcduiker'
+  youtube: 'https://www.youtube.com/@marcduiker'
+  #twitter: 'https://twitter.com/marcduiker'
+  github: 'https://github.com/marcduiker'
+  kofi: 'https://ko-fi.com/marcduiker'
