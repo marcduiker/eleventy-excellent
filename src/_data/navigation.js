@@ -10,7 +10,7 @@ export default {
     },
     {
       text: 'Pixel Art',
-      url: '/pixel-art/'
+      url: '/pixelart/'
     },
     {
       text: 'About',
