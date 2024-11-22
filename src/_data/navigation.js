@@ -19,12 +19,7 @@ export default {
     {
       text: 'Docs',
       url: '/get-started/'
-    },
-    {
-      text: 'Built with',
-      url: '/built-with/'
     }
-    
   ],
   bottom: [
     {
