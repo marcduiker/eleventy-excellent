@@ -44,7 +44,8 @@ export const imageShortcode = async (
     urlPath: '/assets/images/',
     outputDir: './dist/assets/images/', 
     sharpOptions: {
-      animated: true
+      animated: true,
+      limitInputPixels: false
     },
     filenameFormat: (id, src, width, format, options) => {
       const extension = path.extname(src);
