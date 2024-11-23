@@ -25,7 +25,7 @@ const stringifyAttributes = attributeMap => {
  * @param {string} [className] - The CSS class name for the image element.
  * @param {string} [sizes='90vw'] - The sizes attribute for the image.
  * @param {number[]} [widths=[440, 650, 960, 1200]] - The widths for generating responsive images.
- * @param {string[]} [formats=['avif', 'webp', 'jpeg']] - The formats for generating responsive images.
+ * @param {string[]} [formats=['gif', 'avif', 'webp', 'jpeg']] - The formats for generating responsive images.
  * @returns {string} - The HTML image element.
  */
 export const imageShortcode = async (
@@ -36,16 +36,15 @@ export const imageShortcode = async (
   className,
   sizes = '90vw',
   widths = [440, 650, 960, 1200],
-  formats = ['avif', 'webp', 'jpeg', "gif"]
+  formats = ['gif', 'avif', 'webp', 'jpeg']
 ) => {
   const metadata = await Image(src, {
     widths: [...widths],
     formats: [...formats],
     urlPath: '/assets/images/',
-    outputDir: './dist/assets/images/',
+    outputDir: './dist/assets/images/', 
     sharpOptions: {
-      animated: true,
-      limitInputPixels:false
+      animated: true
     },
     filenameFormat: (id, src, width, format, options) => {
       const extension = path.extname(src);
@@ -54,7 +53,7 @@ export const imageShortcode = async (
     }
   });
 
-  const lowsrc = metadata.jpeg[metadata.jpeg.length - 1];
+  
 
   // Getting the URL to use
   let imgSrc = src;
@@ -65,6 +64,8 @@ export const imageShortcode = async (
     imgSrc = `${pathParts.join('/')}/${src}`;
   }
 
+  const isGif = imgSrc.endsWith('.gif');
+  const lowsrc = isGif ? metadata.gif[metadata.gif.length - 1] : metadata.jpeg[metadata.jpeg.length - 1];
   const imageSources = Object.values(metadata)
     .map(imageFormat => {
       return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat

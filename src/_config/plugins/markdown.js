@@ -49,7 +49,10 @@ export const markdownLib = markdownIt({
       widths: [440, 880, 1024],
       urlPath: '/assets/images/',
       outputDir: './dist/assets/images/',
-      formats: ['webp', 'jpeg']
+      formats: ['gif', 'webp', 'jpeg'],
+      sharpOptions: {
+        animated: true
+      },
     },
     globalAttributes: {
       loading: 'lazy',
