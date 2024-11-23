@@ -2,7 +2,7 @@ import fetch from '@11ty/eleventy-fetch';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-const dataPath = './src/_data/builtwith.json';
+const dataPath = './src/_data/pixelart.json';
 const screenshotDir = path.join(
   path.dirname(new URL(import.meta.url).pathname),
   '../../assets/images/screenshots'

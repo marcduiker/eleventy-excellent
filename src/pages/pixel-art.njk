@@ -31,23 +31,20 @@ widths: [400, 520]
   {% svg "divider/soft-top", null, "seperator" %}
 
   <section class="feature section__inner wrapper">
-    <h2>Based on, or built with Eleventy Excellent:</h2>
+    <h2>Pixel art</h2>
     <div
       class="feature grid region"
       style="--region-space-top: var(--space-xl); --gutter: var(--space-xl) var(--space-xs)"
     >
-      <!-- you find tha data for that in src/_data/builtwith.json -->
-      {% for site in builtwith | shuffle %}
-        <custom-card clickable img-square class="text-step-min-1" style="--card-bg: var(--color-bg)">
-          {% image "./src/assets/images/screenshots/" + site.filename + ".jpg", site.name, null, "lazy", null, sizes, widths %}
-          <h3 class="text-step-0" slot="headline">{{ site.name }}</h3>
+      <!-- you find tha data for that in src/_data/pixelart.json -->
+      {% for art in pixelart %}
+        <custom-card img-square class="text-step-min-1" style="--card-bg: var(--color-bg)">
+          {% image "./src/assets/images/pixelart/" + art.filename, art.name, null, "lazy", null, sizes, widths %}
+          <h3 class="text-step-0" slot="headline">{{ art.name }}</h3>
 
-          <p slot="content">{{ site.description }}</p>
+          <p slot="content">{{ art.description }}</p>
           <footer slot="footer" class="repel">
-            <a class="no-indicator" href="{{ site.link }}">{{ site.link | replace("https://", "") }}</a>
-            {% if site.builtbylene %}
-              <span class="gradient-text-linear">built by Lene</span>
-            {% endif %}
+            <a class="no-indicator" href="{{ art.link }}">{{ art.link | replace("https://", "") }}</a>
           </footer>
         </custom-card>
       {% endfor %}

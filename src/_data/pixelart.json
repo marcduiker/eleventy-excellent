@@ -1,0 +1,47 @@
+[
+  {
+    "name": "DDOG logo",
+    "description": "DDOG",
+    "filename": "ddog.gif"
+  },
+  {
+    "name": "DevRelCon London logo",
+    "description": "DevRelCon London",
+    "filename": "devrelcon_london_2023.png"
+  },
+  {
+    "name": "Ferris",
+    "description": "VSCode Pet",
+    "filename": "ferris.gif"
+  },
+  {
+    "name": "Rubber duck",
+    "description": "VSCode Pet",
+    "filename": "rubber_duck.gif"
+  },
+  {
+    "name": "Python",
+    "description": "VSCode Pet",
+    "filename": "python.gif"
+  },
+  {
+    "name": "MVP 2022",
+    "description": "MVP award animation",
+    "filename": "MVP2022.gif"
+  },
+  {
+    "name": "A-team",
+    "description": "A-team",
+    "filename": "A-team.gif"
+  },
+  {
+    "name": "Optimus & Megatron",
+    "description": "80s cartoons!",
+    "filename": "optimus_megatron.png"
+  },
+  {
+    "name": "Star Wars",
+    "description": "Love Star Wars",
+    "filename": "starwars.gif"
+  }
+]
