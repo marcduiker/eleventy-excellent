@@ -1,7 +1,7 @@
 ---
 title: Creative Coding
 permalink: /creative-coding/index.html
-description: 'I really love creative coding!'
+description: 'Hand-crafted generative art by Marc Duiker.'
 layout: page
 ---
 

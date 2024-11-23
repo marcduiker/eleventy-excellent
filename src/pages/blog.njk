@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Articles
-description: 'All blog posts can be found here'
+description: 'Articles about Developer Experience by Marc Duiker.'
 pagination:
   data: collections.allPosts
   size: 6
@@ -10,11 +10,12 @@ permalink: 'articles/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNu
 
 <article class="wrapper">
   <header class="full | section" style="--spot-color: var(--color-secondary)">
+     {% svg "divider/soft-top", null, "seperator" %}
     <div class="section__inner flow region" style="--region-space-top: var(--space-xl-2xl)">
       <h1 class="text-center text-base-light">{{ title }}</h1>
     </div>
 
-    {% svg "divider/edgy", null, "seperator" %}
+    {% svg "divider/soft-bottom", null, "seperator" %}
   </header>
 
   <div class="region flow prose" style="--region-space-top: var(--space-xl-2xl)">
