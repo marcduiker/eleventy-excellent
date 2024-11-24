@@ -53,7 +53,9 @@ export const markdownLib = markdownIt({
       sharpOptions: {
         animated: true,
         limitInputPixels: false,
-        unlimited: true
+        withoutEnlargement: true,
+        unlimited: true,
+        fit: 'contain'
       },
     },
     globalAttributes: {

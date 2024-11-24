@@ -46,7 +46,9 @@ export const imageShortcode = async (
     sharpOptions: {
       animated: true,
       limitInputPixels: false,
-      unlimited: true
+      withoutEnlargement: true,
+      unlimited: true,
+      fit: 'contain'
 
     },
     filenameFormat: (id, src, width, format, options) => {

@@ -8,7 +8,9 @@ export const skipContent = 'Skip to content';
 export const author = {
   name: 'Marc Duiker', // i.e. Lene Saile - page / blog author's name. Must be set.
   avatar: '/icon-512x512.png', // path to the author's avatar. In this case just using a favicon.
-  website: 'marcduiker.dev', // i.e. https.://www.lenesaile.com - the personal site of the author
+  website: 'marcduiker.dev',
+  twitter: '@marcduiker',
+  bluesky: '@marcduiker.dev'
 };
 export const creator = {
   name: 'Marc Duiker'
