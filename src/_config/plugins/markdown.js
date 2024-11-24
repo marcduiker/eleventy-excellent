@@ -51,7 +51,9 @@ export const markdownLib = markdownIt({
       outputDir: './dist/assets/images/',
       formats: ['gif', 'webp', 'jpeg'],
       sharpOptions: {
-        animated: true
+        animated: true,
+        limitInputPixels: false,
+        unlimited: true
       },
     },
     globalAttributes: {
