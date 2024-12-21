@@ -7,15 +7,15 @@ layout: page
 
 ## Happy accidents
 
-I really love creative coding. It feels quite different compared to coding for work. When I code for work, I do it to achieve a very specific goal; to implement a business feature, or to demonstrate how something works in a proof of concept. With creative coding, my goal is to create something fun or beautiful, where the result is often achieved by happy accidents.
+I really love creative coding. It feels quite different compared to coding for work. When I code for work, I do it to achieve a very specific goal; to implement a feature that adds value, or to demonstrate how a technology works. With creative coding, the goal is to create something fun or beautiful, where the result is often achieved by happy accidents.
 
 If you're interested in learning (visual) creative coding, I can definitely recommend [The Coding Train](https://www.youtube.com/c/TheCodingTrain) channel on YouTube. Daniel Shiffman is an amazing teacher, I want to be like him when I grow up 😅.
 
-Creative coding is ideal for educational purposes. It's very rewarding for students to see (or hear) the result of their coding exercises.
+Creative coding is also ideal for educational purposes. It's very rewarding for students to see (or hear) the result of their coding exercises.
 
-## Digital generative art
+## Generative art
 
-I create generative art under the pseudonym of _[_md](https://www.fxhash.xyz/u/_md)_. I mostly use JavaScript with [P5js](https://p5js.org/), a library for creative coding based on Processing.
+I create hand-crafted generative art under the pseudonym of _[_md](https://www.fxhash.xyz/u/_md)_. I mostly use JavaScript with [P5js](https://p5js.org/), a library for creative coding based on Processing.
 
 You can collect my digital art on [fx(hash)](https://www.fxhash.xyz/u/_md).
 

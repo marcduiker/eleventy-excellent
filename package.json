@@ -1,8 +1,8 @@
 {
-  "name": "eleventy-excellent",
-  "version": "3.7.3",
-  "description": "Eleventy starter built around the workflow suggested by Andy Bell's buildexcellentwebsit.es.",
-  "author": "Lene Saile",
+  "name": "marcduiker-personal-website",
+  "version": "1.0",
+  "description": "Personal website based on the excellent-eleventy template by Lene Saile",
+  "author": "Marc Duiker",
   "license": "ISC",
   "type": "module",
   "engines": {

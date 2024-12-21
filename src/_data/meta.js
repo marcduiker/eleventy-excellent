@@ -1,13 +1,13 @@
 export const url = process.env.URL || 'http://localhost:8080';
 export const siteName = 'marcduiker.dev';
-export const siteDescription = 'I ❤️ OSS, Improving DevEx, Creative Coding & Handcrafted Generative Art';
+export const siteDescription = 'I ❤️ OSS, Improving DevEx, Handcrafted Generative Art & Pixel Art';
 export const siteType = 'Person'; // schema
 export const locale = 'en_EN';
 export const lang = 'en';
 export const skipContent = 'Skip to content';
 export const author = {
   name: 'Marc Duiker', // i.e. Lene Saile - page / blog author's name. Must be set.
-  avatar: '/icon-512x512.png', // path to the author's avatar. In this case just using a favicon.
+  avatar: '/marcduiker_360.png', // path to the author's avatar. In this case just using a favicon.
   website: 'marcduiker.dev',
   twitter: '@marcduiker',
   bluesky: '@marcduiker.dev'
@@ -20,11 +20,11 @@ export const themeColor = '#DD4462'; //  Manifest: defines the default theme col
 export const themeBgColor = '#FBFBFB'; // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
 export const opengraph_default = '/assets/images/template/opengraph-default.jpg'; // fallback/default meta image
 export const opengraph_default_alt =
-  "I ❤️ OSS, Improving DevEx, Creative Coding & Handcrafted Generative Art"; // alt text for default meta image"
+  "I ❤️ OSS, Improving DevEx, Handcrafted Generative Art & Pixel Art"; // alt text for default meta image"
 export const blog = {
   // RSS feed
   name: 'My Articles',
-  description: 'I ❤️ OSS, Improving DevEx, Creative Coding & Handcrafted Generative Art',
+  description: 'I ❤️ OSS, Improving DevEx, Handcrafted Generative Art & Pixel Art',
   // feed links are looped over in the head. You may add more to the array.
   feedLinks: [
     {

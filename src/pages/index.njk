@@ -1,8 +1,8 @@
 ---
 layout: base
 permalink: /index.html
-title: 'Hi, I''m Marc Duiker 👋'
-description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
+title: 'Marc Duiker: I ❤️ OSS, Improving DevEx, Handcrafted Generative Art & Pixel Art'
+description: 'Welcome to the personal website of Marc Duiker, a creative technologist who enjoys helping people to achieve more every day.'
 blog:
   title: 'Latest articles'
 ---
@@ -11,39 +11,34 @@ blog:
   <header class="full | section" style="--spot-color: var(--color-secondary)">
     {% svg "divider/soft-top", null, "seperator" %}
     <div class="section__inner flow region">
-      <h1 class="text-center text-base-light">{{ title }}</h1>
+      <h1 class="text-center text-base-light">{{ meta.siteDescription }}</h1>
     </div>
 
     {% svg "divider/soft-bottom", null, "seperator" %}
   </header>
 
-  <article class="full | region">
+  <section class="full | region">
     <div class="wrapper flow prose">
-      <h2 id="an-eleventy-starter">A short introduction</h2>
-      <p>
-        I'm a developer advocate who loves to code, write, and draw, to help developers achieve more every day. 🚀
-      </p>
-      <p>
-        I have a long history with .NET, Azure, serverless ⚡️, and event-driven architectures ✉️. These days I'm creating content around Dapr, the Distributed Application Runtime, which allows me to explore more programming languages and cloud platforms! 🤩
-      </p>
-      <p>
-        When I'm not working to improve the developer experience, I am either drawing some pixel art for fun, hand-crafting generative art using JavaScript, or creating soundscapes with my modular synth 🎛️.
-      </p>
-      <p>
-        Check the <a href="/about">about</a> page if you want to contact me. See you around! 👋
-      </p>
+     <h2>Latest Generative Art</h2>
 
     </div>
-  </article>
+  </section>
+
+  <section class="full | region">
+    <div class="wrapper flow prose">
+     <h2>Latest Pixel Art</h2>
+
+    </div>
+  </section>
 
   <section class="full | region">
     <div class="wrapper flow prose">
       <h2>{{ blog.title }}</h2>
       <!-- blog intro text is optional. -->
 
-      {% if blog.intro %}
+      {# {% if blog.intro %}
         <p>{{ blog.intro }}</p>
-      {% endif %}
+      {% endif %} #}
 
       <div class="feature |  region">
         <custom-masonry layout="50-50">
