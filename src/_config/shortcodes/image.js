@@ -48,7 +48,7 @@ export const imageShortcode = async (
       limitInputPixels: false,
       withoutEnlargement: true,
       unlimited: true,
-      fit: 'contain'
+      fit: 'outside'
 
     },
     filenameFormat: (id, src, width, format, options) => {
