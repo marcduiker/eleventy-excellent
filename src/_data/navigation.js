@@ -15,16 +15,8 @@ export default {
     {
       text: 'About',
       url: '/about/'
-    },
-    {
-      text: 'Docs',
-      url: '/get-started/'
     }
   ],
   bottom: [
-    {
-      text: 'Style guide',
-      url: '/styleguide/'
-    }
   ]
 };

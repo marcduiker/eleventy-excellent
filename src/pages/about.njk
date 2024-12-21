@@ -1,0 +1,38 @@
+---
+title: About
+layout: page
+permalink: /about/index.html
+description: 'Marc Duiker profile and contact information.'
+sizes: '(max-width: 615px) 50vw, 100vw'
+widths: [400, 520]
+---
+
+      <p>Hey there! I'm Marc Duiker, a creative technologist who enjoys helping people to achieve more every day 🚀.</p>
+      <p>Professionally I work as a Sr Developer Advocate at [Diagrid](https://diagrid.io), where I focus on improving the developer experience for the [Dapr OSS project](https://dapr.io).</p>
+      <p>I've been active in developer communities since 2012. I have a long history with .NET, Azure, serverless ⚡️, and event-driven architectures ✉️. For the last two years I've been creating content about Dapr, the Distributed Application Runtime, and leading the community management acitivies for the project.</p>
+      <p>My creative side has many facets. I enjoy hand-coding visual and interactive experiences with JavaScript, drawing pixel art, and creating soundscapes with my modular synth 🎛️.</p>
+      <p>If you want to be more involved in developer communities and don't know where to start, feel free to reach out to me. You can also ping me if you want to submit a session to a conference and would like to have your CfP or presentation reviewed.</p>
+
+  <article class="full  section" style="--spot-color: var(--color-bg-accent)">
+  {% svg "divider/soft-top", null, "seperator" %}
+    <section class="feature section__inner wrapper">
+    <h2>Other places you can find me</h2>
+
+        {% for key, value in personal.platforms %}
+          {% if value != "" %}
+            <!-- regular platforms -->
+            <a href="{{ value }}" rel="me">
+              <span class="visually-hidden">{{ key | capitalize }}</span>
+              {% svg 'platform/' + key %} {{ key | capitalize }}
+            </a>
+          {% endif %}
+        {% endfor %}
+
+    </section>
+
+  {% svg "divider/soft-bottom", null, "seperator" %}
+</article>
+
+
+
+

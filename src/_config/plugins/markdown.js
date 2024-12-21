@@ -55,7 +55,7 @@ export const markdownLib = markdownIt({
         limitInputPixels: false,
         withoutEnlargement: true,
         unlimited: true,
-        fit: 'outside'
+        fit: 'inside'
       },
     },
     globalAttributes: {
