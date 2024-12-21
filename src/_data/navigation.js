@@ -5,8 +5,8 @@ export default {
       url: '/articles/'
     },
     {
-      text: 'Creative Coding',
-      url: '/creative-coding/'
+      text: 'Generative Art',
+      url: '/generative-art/'
     },
     {
       text: 'Pixel Art',

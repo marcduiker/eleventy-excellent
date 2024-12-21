@@ -1,6 +1,6 @@
 ---
-title: Creative Coding
-permalink: /creative-coding/index.html
+title: Generative Art
+permalink: /generative-art/index.html
 description: 'Hand-crafted generative art by Marc Duiker.'
 layout: page
 ---
