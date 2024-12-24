@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: base
 title: Articles
 description: 'Articles about Developer Experience by Marc Duiker.'
 pagination:
@@ -8,8 +8,11 @@ pagination:
 permalink: 'articles/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html'
 ---
 
-<article class="wrapper">
+<article class="region wrapper prose" style="--region-space-top: var(--space-xl-2xl)">
+  <h1 class="text-secondary-highlight">{{ title }}</h1>
+</article>
 
+<article class="wrapper">
   <custom-masonry layout="50-50">
 		{% asyncEach item in pagination.items %}
 			{% set definedDate = item.date %}
