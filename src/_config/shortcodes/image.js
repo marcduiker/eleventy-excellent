@@ -36,7 +36,7 @@ export const imageShortcode = async (
   className,
   sizes = '90vw',
   widths = [440, 650, 960, 1200],
-  formats = ['gif', 'avif', 'webp', 'jpeg']
+  formats = ['webp']
 ) => {
   const metadata = await Image(src, {
     widths: [...widths],
@@ -45,9 +45,9 @@ export const imageShortcode = async (
     outputDir: './dist/assets/images/', 
     sharpOptions: {
       animated: true,
-      limitInputPixels: false,
+      limitInputPixels: 26840268900,
       withoutEnlargement: true,
-      unlimited: true,
+      unlimited: false,
       fit: 'inside'
 
     },
@@ -69,8 +69,9 @@ export const imageShortcode = async (
     imgSrc = `${pathParts.join('/')}/${src}`;
   }
 
-  const isGif = imgSrc.endsWith('.gif');
-  const lowsrc = isGif ? metadata.gif[metadata.gif.length - 1] : metadata.jpeg[metadata.jpeg.length - 1];
+  //const isGif = imgSrc.endsWith('.gif');
+  //const lowsrc = isGif ? metadata.gif[metadata.gif.length - 1] : metadata.jpeg[metadata.jpeg.length - 1];
+  const lowsrc = metadata.webp[metadata.webp.length - 1];
   const imageSources = Object.values(metadata)
     .map(imageFormat => {
       return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat
