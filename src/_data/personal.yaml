@@ -1,6 +1,7 @@
 platforms:
   bluesky: 'https://bsky.app/profile/marcduiker.dev'
   linkedin: 'https://www.linkedin.com/in/marcduiker'
+  sessionize: 'https://sessionize.com/marcduiker'
   mastodon: 'https://mstdn.social/@marcduiker'
   youtube: 'https://www.youtube.com/@marcduiker'
   github: 'https://github.com/marcduiker'

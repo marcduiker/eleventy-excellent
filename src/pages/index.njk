@@ -24,7 +24,7 @@ widths: [400, 520]
      <h2>Latest Generative Art</h2>
       <div
       class="feature grid region"
-      style="--region-space-top: var(--space-xl); --gutter: var(--space-xl) var(--space-xs)"
+      style="--region-space-top: var(--space-m); --region-space-bottom: var(--space-m); --gutter: var(--space-m) var(--space-xs)"
     >
       {% for ga in generativeart.slice(0, 3) %}
         <custom-card img-square clickable style="--card-bg: var(--color-bg)">
@@ -45,7 +45,7 @@ widths: [400, 520]
      <h2>Latest Pixel Art</h2>
       <div
       class="feature grid region"
-      style="--region-space-top: var(--space-xl); --gutter: var(--space-xl) var(--space-xs)"
+      style="--region-space-top: var(--space-m); --region-space-bottom: var(--space-m); --gutter: var(--space-m) var(--space-xs)"
     >
       {% for px in pixelart.slice(0, 3) %}
         <custom-card img-square style="--card-bg: var(--color-bg)">
