@@ -1,5 +1,6 @@
 ---
 title: "Azure Functions University - Durable Functions Introduction & Chaining (TypeScript)"
+permalink: "/articles/azfuncuni-durablefunctions-lesson-typescript/"
 description: ""
 date: 2021-02-14
 ---

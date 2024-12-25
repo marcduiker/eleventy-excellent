@@ -1,5 +1,6 @@
 ---
 title: "MC-ing at MSBuild The Netherlands"
+permalink: "/articles/mc-ingmsbuild/"
 description: ""
 date: 2023-10-01
 ---

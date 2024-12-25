@@ -1,5 +1,6 @@
 ---
 title: "Speaking at BuildStuff 2023"
+permalink: "/articles/speaking-at-buildstuff-2023/"
 description: ""
 date: 2023-11-18
 ---

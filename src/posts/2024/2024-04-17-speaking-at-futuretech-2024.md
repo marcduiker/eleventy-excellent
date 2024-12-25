@@ -1,5 +1,6 @@
 ---
 title: "Speaking at FutureTech 2024 about Dapr Actors"
+permalink: "/articles/speaking-at-futuretech-2024/"
 description: ""
 date: 2024-04-17
 ---

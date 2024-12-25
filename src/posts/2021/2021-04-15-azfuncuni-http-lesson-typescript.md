@@ -1,5 +1,6 @@
 ---
 title: "Azure Functions University - HTTP Lesson (TypeScript)"
+permalink: "/articles/azfuncuni-http-lesson-typescript/"
 description: ""
 date: 2021-04-15
 ---

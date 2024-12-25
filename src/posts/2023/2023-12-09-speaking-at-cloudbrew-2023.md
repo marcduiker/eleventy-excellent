@@ -1,5 +1,6 @@
 ---
 title: "Speaking at Cloudbrew 2023"
+permalink: "/articles/speaking-at-cloudbrew-2023/"
 description: ""
 date: 2023-12-09
 ---

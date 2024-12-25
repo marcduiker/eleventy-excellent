@@ -1,5 +1,6 @@
 ---
 title: "Azure Community Enthusiasts: Dapr"
+permalink: "/articles/azure-community-enthusiasts-5-feb/"
 description: ""
 date: 2024-02-05
 ---

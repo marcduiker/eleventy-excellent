@@ -1,5 +1,6 @@
 ---
 title: "Stop adding business value and become an artist with your IT skills"
+permalink: "/articles/devopsdays-creative-coding/"
 description: ""
 date: 2023-10-12
 ---

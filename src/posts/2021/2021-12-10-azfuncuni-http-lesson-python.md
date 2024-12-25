@@ -1,5 +1,6 @@
 ---
 title: "Azure Functions University - HTTP Lesson (Python)"
+permalink: "/articles/azfuncuni-http-lesson-python/"
 description: ""
 date: 2021-12-10
 ---

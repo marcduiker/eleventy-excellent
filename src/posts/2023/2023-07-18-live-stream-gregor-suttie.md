@@ -1,5 +1,6 @@
 ---
 title: "Live stream with Gregor Suttie"
+permalink: "/articles/live-stream-gregor-suttie/"
 description: ""
 date: 2023-07-18
 ---

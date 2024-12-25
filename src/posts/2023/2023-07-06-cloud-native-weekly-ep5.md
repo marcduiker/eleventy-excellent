@@ -1,5 +1,6 @@
 ---
 title: "Cloud Native Weekly Episode 5: Dapr"
+permalink: "/articles/cloud-native-weekly-ep5/"
 description: ""
 date: 2023-07-06
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Azure Functions University - Deployment Lesson (.NET 6)"
+permalink: "/articles/azfuncuni-deployment-lesson-dotnet6/"
 description: ""
 date: 2022-03-15
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Sponsoring Techorama NL and (re-)connecting with the community ❤️"
+permalink: "/articles/sponsoring-techorama-nl-2023/"
 description: ""
 date: 2023-10-11
 ---

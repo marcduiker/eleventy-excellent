@@ -1,5 +1,6 @@
 ---
 title: "Speaking at Swetugg Stockholm 2024"
+permalink: "/articles/speaking-at-swetugg-stockholm-2024/"
 description: ""
 date: 2024-02-07
 ---

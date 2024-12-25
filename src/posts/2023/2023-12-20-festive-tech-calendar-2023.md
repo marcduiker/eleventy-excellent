@@ -1,5 +1,6 @@
 ---
 title: "Participating in Festive Tech Calendar 2023"
+permalink: "/articles/festive-tech-calendar-2023/"
 description: ""
 date: 2023-12-20
 ---

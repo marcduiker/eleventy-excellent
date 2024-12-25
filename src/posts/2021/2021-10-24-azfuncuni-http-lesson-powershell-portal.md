@@ -1,5 +1,6 @@
 ---
 title: "Azure Functions University - HTTP Lesson (PowerShell via Portal)"
+permalink: "/articles/azfuncuni-http-lesson-powershell-portal/"
 description: ""
 date: 2021-10-24
 ---

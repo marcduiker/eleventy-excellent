@@ -1,5 +1,6 @@
 ---
 title: "Azure Functions University - Blob Lesson (TypeScript)"
+permalink: "/articles/azfuncuni-blob-lesson-typescript/"
 description: ""
 date: 2021-09-03
 ---

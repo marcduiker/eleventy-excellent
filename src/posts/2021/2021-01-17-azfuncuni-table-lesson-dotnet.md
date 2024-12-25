@@ -1,5 +1,6 @@
 ---
 title: "Azure Functions University - Table Lesson (.NET Core)"
+permalink: "/articles/azfuncuni-table-lesson-dotnet/"
 description: ""
 date: 2021-01-17
 ---

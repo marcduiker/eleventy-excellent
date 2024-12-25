@@ -1,5 +1,6 @@
 ---
 title: "Speaking at ContainerDays 2024"
+permalink: "/articles/speaking-at-containerdays-2024/"
 description: ""
 date: 2024-09-08
 ---

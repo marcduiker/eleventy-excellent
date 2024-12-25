@@ -1,5 +1,6 @@
 ---
 title: "Speaking at DotNetFriday about Dapr Workflow"
+permalink: "/articles/dotnetfriday-dapr-workflow/"
 description: ""
 date: 2023-10-02
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Azure Functions University - Configuration Lesson (.NET Core)"
+permalink: "/articles/azfuncuni-configuration-lesson-dotnet/"
 description: ""
 date: 2021-03-28
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Azure Functions University - Lesson Tips"
+permalink: "/articles/azfuncuni-lesson-tips/"
 description: ""
 date: 2021-05-19
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Speaking at the Tweakers Developers Summit 2023"
+permalink: "/articles/speaking-at-tweakers-dev-summit/"
 description: ""
 date: 2023-09-17
 

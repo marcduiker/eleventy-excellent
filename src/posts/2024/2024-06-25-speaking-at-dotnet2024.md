@@ -1,5 +1,6 @@
 ---
 title: "Speaking at dotnet2024 about Dapr Resiliency & Durable Execution"
+permalink: "/articles/speaking-at-dotnet2024/"
 description: ""
 date: 2024-06-25
 ---

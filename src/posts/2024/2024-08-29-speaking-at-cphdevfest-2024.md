@@ -1,5 +1,6 @@
 ---
 title: "Speaking at Copenhagen Developers Festival 2024"
+permalink: "/articles/speaking-at-cphdevfest-2024/"
 description: ""
 date: 2024-08-29
 ---

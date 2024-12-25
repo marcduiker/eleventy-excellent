@@ -1,5 +1,6 @@
 ---
 title: "MC-ing at Azure & AI Lowlands 2024"
+permalink: "/articles/mcing-at-azure-lowlands-2024/"
 description: ""
 date: 2024-06-27
 ---

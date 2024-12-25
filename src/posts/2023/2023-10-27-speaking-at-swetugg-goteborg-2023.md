@@ -1,5 +1,6 @@
 ---
 title: "Speaking at Swetugg Göteborg"
+permalink: "/articles/speaking-at-swetugg-goteborg-2023/"
 description: ""
 date: 2023-10-27
 ---

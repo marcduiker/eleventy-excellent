@@ -1,5 +1,6 @@
 ---
 title: "Azure Functions University - HTTP Lesson (.NET 6)"
+permalink: "/articles/azfuncuni-http-lesson-dotnet6/"
 description: ""
 date: 2022-01-03
 ---

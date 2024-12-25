@@ -1,5 +1,6 @@
 ---
 title: "Speaking at NDC Porto about Dapr workflow"
+permalink: "/articles/speaking-at-ndcporto-2023/"
 description: ""
 date: 2023-10-20
 ---

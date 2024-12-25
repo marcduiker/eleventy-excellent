@@ -1,5 +1,6 @@
 ---
 title: "Azure Functions University - CosmosDB Lesson (.NET Core)"
+permalink: "/articles/azfuncuni-cosmosdb-lesson-dotnet/"
 description: ""
 date: 2021-02-07
 ---

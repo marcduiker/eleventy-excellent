@@ -1,5 +1,6 @@
 ---
 title: "Azure Functions University - Durable Functions Advanced Patterns (TypeScript)"
+permalink: "/articles/azfuncuni-durablefunctions-advanced-lesson-typescript/"
 description: ""
 date: 2022-02-25
 ---

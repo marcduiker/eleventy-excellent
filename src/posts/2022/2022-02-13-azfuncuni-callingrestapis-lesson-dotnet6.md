@@ -1,6 +1,6 @@
 ---
 title: "Azure Functions University - Calling third-party REST APIs (.NET 6)"
-description: ""
+permalink: "/articles/azfuncuni-callingrestapis-lesson-dotnet6/"
 date: 2022-02-13
 ---
 

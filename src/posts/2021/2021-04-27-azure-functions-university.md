@@ -1,5 +1,6 @@
 ---
 title: "Creating Azure Functions University, an open source educational project"
+permalink: "/articles/azure-functions-university/"
 description: ""
 date: 2021-04-27
 ---

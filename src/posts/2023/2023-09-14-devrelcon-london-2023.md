@@ -1,5 +1,6 @@
 ---
 title: "Attending DevRelCon London 2023"
+permalink: "/articles/devrelcon-london-2023/"
 description: ""
 date: 2023-09-14
 ---

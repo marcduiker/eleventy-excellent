@@ -1,5 +1,6 @@
 ---
 title: "Speaking at 4CEE Tech Talk about Dapr"
+permalink: "/articles/4cee-meetup-dapr/"
 description: ""
 date: 2023-10-12
 ---

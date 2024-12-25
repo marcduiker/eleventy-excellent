@@ -1,5 +1,6 @@
 ---
 title: "Sponsoring Techorama NL 2024"
+permalink: "/articles/sponsoring-techorama-nl-2024/"
 description: ""
 date: 2024-10-08
 ---

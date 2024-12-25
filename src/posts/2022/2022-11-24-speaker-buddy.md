@@ -1,5 +1,6 @@
 ---
 title: "Be ready for failure on stage: introducing the Speaker Buddy System"
+permalink: "/articles/speaker-buddy/"
 description: ""
 date: 2022-11-24
 ---

@@ -1,5 +1,6 @@
 ---
 title: "One year at Ably as a Developer Advocate"
+permalink: "/articles/one-year-at-ably-as-developer-advocate/"
 description: ""
 date: 2022-11-02
 ---
